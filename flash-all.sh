@@ -15,3 +15,4 @@ echo "Flashing bootloader"
 fastboot -i 0x1ebf  flash sbl1 sbl1.mbn
 fastboot -i 0x1ebf  flash tz tz.mbn
 fastboot -i 0x1ebf  flash aboot emmc_appsboot.mbn
+echo "Flashing complete. Disconnect device and reboot"
