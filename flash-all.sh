@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "Flashing kernel"
 fastboot -i 0x1ebf  flash boot boot.img
 echo "Flashing system"

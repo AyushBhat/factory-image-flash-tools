@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=flash-all
+Exec=bash -c '"$(dirname "$1")"/flash-all.sh' dummy %k
