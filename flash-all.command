@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd "`dirname "$0"`"
 echo "Flashing kernel"
 fastboot -i 0x1ebf  flash boot boot.img
 echo "Flashing system"
